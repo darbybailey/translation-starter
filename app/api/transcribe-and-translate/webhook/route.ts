@@ -99,7 +99,7 @@ export async function POST(req: Request) {
     });
   } else {
     logger.log('Updated job with ID', result.request_id);
-  }
+  } 
 
   return NextResponse.json({ success: true });
 }
