@@ -18,7 +18,7 @@ In order to accept payments, you'll need to go through these steps to configure 
 
 1. Create a [Stripe](https://stripe.com/) account if you don't have one yet
 
-### Part 2 - Add environment variables to Vercel
+### Part 2 - Add environment variables to Vercel this has been done as of 030324
 
 1. From the Stripe Dashboard, navigate to the Developers page by clicking `Developers` at the top of the screen
 2. Click the `API keys` tab and find the `Publishable key` and `Secret key`
