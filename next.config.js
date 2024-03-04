@@ -4,7 +4,6 @@ const webpack = require('webpack');
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    appDir: true,
     serverActions: true
   },
   webpack: (config) => {
