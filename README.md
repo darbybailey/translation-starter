@@ -165,7 +165,7 @@ If you're setting up the app to include payments, you must run the Stripe CLI to
 - Install the [Stripe CLI](https://stripe.com/docs/stripe-cli)
 - [Link](https://stripe.com/docs/stripe-cli#login-account) your Stripe account.
 
-In a seperate terminal, run the below command to initiate local webhook forwarding THIS ASSUMES LOCAL DEV AND NOT VERCEL, yo
+In a seperate terminal, run the below command to initiate local webhook forwarding THIS ASSUMES LOCAL DEV AND NOT VERCEL
 
 ```bash
 stripe listen --forward-to=localhost:3000/api/webhooks
